@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Worky</title>
+        <item>
+            <title>1.3.2</title>
+            <pubDate>Wed, 04 Jan 2023 03:48:52 -0700</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <description><![CDATA[
+                <h3>Minor bug fixes! :)</h3>
+            ]]>
+            </description>
+            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://worky.betweenframes.net/Worky%201.3.2.dmg" length="2665023" type="application/octet-stream" sparkle:edSignature="aLeb2v5BeJBQcTyzvNoofuXDMGRDlP/Jlte7pI795FLQPBy7izQoogy6s6W02c5UtyuHeI3wRTkR+mjkvzwXCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://worky.betweenframes.net/Worky19-6.delta" sparkle:deltaFrom="6" length="267670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="1381376" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="PQwl/BAK6i9Z1uXZKn4YZKns2fG6L2fGiq8zo/Xkb6f8XCxypqzXJVUXvQMHWi3DpR0w7eP31LagATgrL/rrCQ=="/>
+                <enclosure url="https://worky.betweenframes.net/Worky19-3.delta" sparkle:deltaFrom="3" length="270158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="1381376" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ccoMminTTUfMuZi0c8448CUuTimd7b6km5WfG01hNbCAZiXN6V+eaijDlKCH90lspUh5L6E7Rh7IW6tG7C58Cg=="/>
+                <enclosure url="https://worky.betweenframes.net/Worky19-2.delta" sparkle:deltaFrom="2" length="270782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="1381376" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="IIqMTMFUXdEMZqKoJzUlgbAiPzR9GP1eLt8Ps/7I/nq0BOWyFdR3qxN0P7dh/iaTdgYpeQOVjwDkZ/ojlmGrCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.3.1</title>
+            <pubDate>Wed, 28 Dec 2022 14:19:58 -0700</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://worky.betweenframes.net/Worky%201.3.1.dmg" length="2708483" type="application/octet-stream" sparkle:edSignature="mabJOqcTIIfYOjnl4OlLNEm033Zw80yZh73WBU9G7ISw0lWGWJNKrAmBP0kp+EI4cOLMQBMJcT+b37vpgzYGBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://worky.betweenframes.net/Worky6-3.delta" sparkle:deltaFrom="3" length="26050" type="application/octet-stream" sparkle:edSignature="ZQt3LFsNVzrWe3J77mdiWORxmNhEa63cYNhuSt09ftBbJZj01H1chkKP0j2EUyIPQ1paGS3FbNtUQqZf2RPdBQ=="/>
+                <enclosure url="https://worky.betweenframes.net/Worky6-2.delta" sparkle:deltaFrom="2" length="25598" type="application/octet-stream" sparkle:edSignature="XVq2aWMxkvXaROVo4ZVSYiJRyuc77IXNfKQVN8U3tUEUiGBBO8E/ZlhRMdAUVhrsTQTIuB7udRJX/xtCS1aVCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.3</title>
+            <pubDate>Tue, 27 Dec 2022 16:59:31 -0700</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://worky.betweenframes.net/Worky%201.3.dmg" length="2706586" type="application/octet-stream" sparkle:edSignature="SFu01ak83SLkjL5wrifFdydZ1sFT+5+0QNUhELrB+FggiYNy/wCyNIC6hgko1pdEmcxmayPbJlkJWlBs9QaQAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://worky.betweenframes.net/Worky3-2.delta" sparkle:deltaFrom="2" length="4538" type="application/octet-stream" sparkle:edSignature="8MKB2FYlQUrsf2Zm/Ls4Nindn1xopSzW8oKBgI2q6jpRlpMwpJ8C2jZMcXlybG22vqIm1sdBYGx+8+W7EBorAw=="/>
+            </sparkle:deltas>
+        </item>
+    </channel>
+</rss>

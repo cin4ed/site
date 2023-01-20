@@ -1,37 +1,103 @@
 <!DOCTYPE html>
+<html lang="en" class="bg-mate">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJFH24F3YP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>NGINX on Railway</title>
-    <meta name="description" content="Choo Choo!" />
+    gtag('config', 'G-YJFH24F3YP');
+  </script>
 
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Plausible tag -->
+  <script defer data-domain="worky.betweenframes.net" src="https://plausible.io/js/script.js"></script>
 
-    <link rel="stylesheet" href="/styles.css?v=1.0" />
-  </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
-    <main>
-      <img
-        src="https://railway.app/brand/logo-light.svg"
-        alt="Railway logo"
-        class="logo"
-      />
+  <!-- Primary Meta Tags -->
+  <title>Worky</title>
+  <meta name="title" content="Worky">
+  <meta name="description" content="The macOS desktop manager.">
 
-      <h1>NGINX on Railway</h1>
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://worky.betweenframes.net/">
+  <meta property="og:title" content="Worky">
+  <meta property="og:description" content="The macOS desktop manager.">
+  <meta property="og:image" content="https://worky.betweenframes.net/assets/meta_image.png">
 
-      <p>
-        Choo Choo! This is an example of an NGINX static site running on
-        Railway.
-        <a
-          href="https://github.com/railwayapp/starters/tree/master/examples/nginx"
-          >View source</a
-        >.
-      </p>
-    </main>
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://worky.betweenframes.net/">
+  <meta property="twitter:title" content="Worky">
+  <meta property="twitter:description" content="The macOS desktop manager.">
+  <meta property="twitter:image" content="https://worky.betweenframes.net/assets/meta_image.png">
 
-    <script src="/script.js"></script>
-  </body>
+  <link href="/css/output.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/assets/logo.svg">
+</head>
+<body class="antialiased flex flex-col min-h-full">
+  <header class="py-4 bg-black-mate text-white-mate">
+    <div class="max-w-5xl px-4 mx-auto flex justify-center">
+      <a href="https://twitter.com/cin4ed" class="flex items-center gap-2">
+        <span>by @cin4ed</span>
+				<svg xmlns="http://www.w3.org/2000/svg" fill="white" width="1em" height="1em" viewBox="0 0 512 512">
+					<!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+					<path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+				</svg>
+      </a>
+    </div>
+  </header>
+  <main class="flex-1 flex flex-col justify-center my-8 sm:my-0">
+    <div class="flex flex-col items-center md:flex-row md:justify-center md:gap-28 text-black-mate">
+      <div>
+        <a class="mt-4" href="https://www.producthunt.com/posts/worky?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-worky" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=372939&theme=light" alt="Worky - Effortlessly&#0032;manage&#0032;your&#0032;macOS&#0032;desktop | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+        <div class="flex flex-col items-center mt-5">
+          <svg class="text-red w-40 h-40" width="630" height="630" viewBox="0 0 630 630" fill="#242424" xmlns="http://www.w3.org/2000/svg">
+            <rect width="630" height="630" rx="113.855" fill="#242424"/>
+            <rect x="99.6235" y="99.6235" width="182.169" height="182.169" rx="33.2078" stroke="white" stroke-width="28.4639"/>
+            <rect x="99.6235" y="348.208" width="182.169" height="182.169" rx="33.2078" stroke="white" stroke-width="28.4639"/>
+            <rect x="348.208" y="99.6235" width="182.169" height="182.169" rx="33.2078" stroke="white" stroke-width="28.4639"/>
+            <rect x="348.208" y="348.208" width="182.169" height="182.169" rx="33.2078" stroke="white" stroke-width="28.4639"/>
+          </svg>
+          <h1 class="text-4xl font-bold mt-3">Worky</h1>
+          <p class="text-neutral-500">The MacOS Desktop Manager</p>
+        </div>
+        <p class="text-center text-xs leading-5 underline mt-1">Minimum supported version <br> MacOS 12.0</p>
+        <div class="flex flex-col mt-4 gap-2">
+          <div class="flex gap-2 justify-between">
+            <a class="rounded-sm py-1 px-5 border block" href="/Worky%201.3.2.dmg"><span class="mr-2">🤞</span>Try it</a>
+            <a class="rounded-sm py-1 px-5 border block" href="#!" id="buy"><span class="mr-2">💵</span>Buy it $12</a>
+          </div>
+          <a class="rounded-sm py-1 px-5 border block text-center" href="https://deep-filament-1f1.notion.site/Worky-Manual-e56cd184f40e43839b47a4e0b46c28bd">
+            <span class="mr-3">🔍</span>How to use?
+          </a>
+        </div>
+      </div>
+      <video class="rounded-md sm:w-96 w-60 mt-10" autoplay muted loop>
+        <source src="/assets/worky_showcase_1080.webm">
+      </video>
+    </div>
+    <div class="text-center mt-8">
+      <a class="text-sm" href="https://slatedigital.zendesk.com/hc/en-us/articles/4612203025043-Can-t-be-opened-because-Apple-cannot-check-it-for-malicious-software" target="_blank">
+        <span class="mr-2">😕</span><span class="underline">Can't open because malicious software?</span>
+      </a>
+    </div>
+  </main>
+  <footer class="flex justify-center py-4 bg-black-mate text-white-mate">
+    <a href="https://betweenframes.net/terms-and-conditions.html">terms</a>
+  </footer>
+  <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+  <script type="text/javascript">
+    Paddle.Setup({ vendor: 160105 });
+    function openCheckout() {
+      Paddle.Checkout.open({ product: 800331 });
+    }
+    document.getElementById('buy').addEventListener('click', openCheckout, false)
+  </script>
+</body>
 </html>
