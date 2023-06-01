@@ -4,7 +4,6 @@ This example is deploys a site using [NGINX](https://www.nginx.com/)
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/o3MbZe)
 
-
 ## ✨ Features
 
 - NGINX
@@ -25,3 +24,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 ```
 
 to the end of the Dockerfile. For more information, [read the docs](https://hub.docker.com/_/nginx).
+
+## Deploy Counter
+
+3
